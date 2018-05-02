@@ -9,7 +9,7 @@
 // displays help on console
 void PrintHelp()
 {
-	std::cout << "CipherTool - Usage:\n";
+    std::cout << "CipherTool - Usage:\n";
     std::cout << "\tciphertool input_file output_file" << std::endl;
 }
 
@@ -57,19 +57,19 @@ void DynamicConsole()
 // entry point
 int main(int argc, char **argv)
 {
-	if (argc == 1)
-	{
-		// io from stdin/out
+    if (argc == 1)
+    {
+        // io from stdin/out
         DynamicConsole();
-	}
-	else if (argc == 3)
-	{
-		// file io
-	}
-	else
-	{
-		PrintHelp();
-	}
+    }
+    else if (argc == 3)
+    {
+        // file io
+    }
+    else
+    {
+        PrintHelp();
+    }
 
-  	return 0;
+    return 0;
 }
